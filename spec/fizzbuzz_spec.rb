@@ -25,4 +25,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(200)).to eq 'buzz'
   end
 
+  it 'returns "fizz" when input is 938691' do
+    expect(fizzbuzz(938691)).to eq 'fizz'
+  end
+
 end 
