@@ -21,4 +21,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(9)).to eq 'fizz'
   end
 
+  it 'returns "buzz" when passed 200' do
+    expect(fizzbuzz(200)).to eq 'buzz'
+  end
+
 end 
