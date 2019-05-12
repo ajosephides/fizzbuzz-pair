@@ -37,4 +37,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(135615)).to eq 'fizzbuzz'
   end
 
+  it 'output of fizzbuzz is a String' do
+    expect(fizzbuzz(rand()).class).to eq String
+  end
+
 end 
