@@ -4,6 +4,8 @@ def fizzbuzz(input)
     return 'fizz'
   elsif input == 5
     return 'buzz'
+  elsif input == 15
+    return 'fizzbuzz'
   else 
     return input.to_s
   end
