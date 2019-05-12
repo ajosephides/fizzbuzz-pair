@@ -1,11 +1,11 @@
 def fizzbuzz(input)
-
-  if input == 3
+  
+  if input == 15
+  return 'fizzbuzz'
+  elsif input % 3 == 0
     return 'fizz'
   elsif input == 5
     return 'buzz'
-  elsif input == 15
-    return 'fizzbuzz'
   else 
     return input.to_s
   end
